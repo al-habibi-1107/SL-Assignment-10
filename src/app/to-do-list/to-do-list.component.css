@@ -1,4 +1,11 @@
 li{
     list-style-type: square;
     padding: 10px;
+    text-align: start;
+}
+.card{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
 }

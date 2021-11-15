@@ -2,14 +2,19 @@
   <div>
     <div class="card">
 
-      <app-to-do-list></app-to-do-list>
+      <h5><a routerLink="/todo-list" routerLinkActive="active">ToDo-List Route</a></h5>
   
     </div>
     <div class="card">
-      <app-to-do-details></app-to-do-details>
+      <h5><a routerLink="/spacex-api" routerLinkActive="active">SpaceX API Route</a></h5>
+
+    </div>
+    <div class="card">
+      <h5><a routerLink="/todo-details" routerLinkActive="active">ToDo-Details Route</a></h5>
 
     </div>
   </div>
+  <router-outlet ></router-outlet>
  
 </div>
-<router-outlet></router-outlet>
+
